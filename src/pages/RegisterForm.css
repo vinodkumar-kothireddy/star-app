@@ -1,0 +1,72 @@
+.register-form {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px;
+  background: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.form-columns {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.form-column {
+  flex: 1;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.left-column {
+  background-color: #e3f2fd; /* light blue */
+}
+
+.right-column {
+  background-color: #fff3e0; /* light orange */
+}
+
+.register-form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.register-form input,
+.register-form select,
+.register-form textarea {
+  padding: 10px;
+  margin-top: 6px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.register-form button {
+  display: block;
+  width: 100%;
+  padding: 14px;
+  font-size: 16px;
+  background-color: #004080;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.register-form button:hover {
+  background-color: #0066cc;
+}
+
+/* ✅ Responsive for mobile and tablets */
+@media (max-width: 768px) {
+  .form-columns {
+    flex-direction: column;
+  }
+
+  .form-column {
+    background-color: #f1f1f1;
+  }
+}

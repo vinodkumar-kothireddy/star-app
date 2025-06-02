@@ -1,0 +1,28 @@
+/* src/components/Countdown.css */
+.countdown-container {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin: 40px 0;
+  flex-wrap: wrap;
+}
+
+.countdown-box {
+  background: #004080;
+  color: #ffffff;
+  padding: 20px 30px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.countdown-value {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.countdown-label {
+  font-size: 14px;
+  margin-top: 5px;
+  text-transform: uppercase;
+}
