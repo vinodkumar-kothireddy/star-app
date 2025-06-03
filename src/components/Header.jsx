@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './Header.css';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -31,12 +32,12 @@ const Header = () => {
       </div>
 
       <nav className={`nav ${menuOpen ? 'open' : ''}`}>
-        <a href="/star-app">Home</a>
-        <a href="/star-app/AboutUs">About</a>
+        <Link to="/star-app">Home</Link>
+        <Link to="/star-app/AboutUs">About</Link>
         <a href="#committee">Committee</a>
         <a href="#faculty">Faculty</a>
         <a href="#abstract">Abstract</a>
-        <a href="/star-app/register">Register</a>
+        <Link to="/star-app/register">Register</Link>
       </nav>
 
       <div
