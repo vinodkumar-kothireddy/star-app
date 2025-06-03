@@ -26,7 +26,7 @@ const Header = () => {
   return (
     <header className={`header ${hideHeader ? 'header--hidden' : ''}`}>
       <div className="logo-container">
-        <img src="/images/logo.jpg" className="logo-img" />
+        <img src={process.env.PUBLIC_URL + '/images/logo.jpg'} className="logo-img" />
         <span className="logo-text">Star 2025</span>
       </div>
 
