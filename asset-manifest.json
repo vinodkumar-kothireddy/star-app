@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/star-app/static/css/main.1a251b2b.css",
-    "main.js": "/star-app/static/js/main.b70ee555.js",
+    "main.js": "/star-app/static/js/main.b5a95504.js",
     "static/js/453.ca8c9b73.chunk.js": "/star-app/static/js/453.ca8c9b73.chunk.js",
     "index.html": "/star-app/index.html",
     "main.1a251b2b.css.map": "/star-app/static/css/main.1a251b2b.css.map",
-    "main.b70ee555.js.map": "/star-app/static/js/main.b70ee555.js.map",
+    "main.b5a95504.js.map": "/star-app/static/js/main.b5a95504.js.map",
     "453.ca8c9b73.chunk.js.map": "/star-app/static/js/453.ca8c9b73.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1a251b2b.css",
-    "static/js/main.b70ee555.js"
+    "static/js/main.b5a95504.js"
   ]
 }
