@@ -33,6 +33,6 @@
 @media (max-width: 768px) {
   .video-wrapper {
     max-width: 95%;
-    padding-bottom: 60%; /* Slightly taller video */
+    padding-bottom: 85%; /* Slightly taller video */
   }
 }
