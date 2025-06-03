@@ -12,13 +12,13 @@
 
 .video-wrapper {
   position: relative;
-  padding-bottom: 35.25%; /* 16:9 aspect ratio */
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
   height: 0;
   overflow: hidden;
-  max-width: 400px; /* smaller width, e.g. 600px */
+  width: 100%;
+  max-width: 700px;
   margin: 0 auto;
 }
-
 
 .video-wrapper iframe {
   position: absolute;
@@ -27,4 +27,12 @@
   width: 100%;
   height: 100%;
   border-radius: 10px;
+}
+
+/* 🔧 Make it bigger for smaller screens */
+@media (max-width: 768px) {
+  .video-wrapper {
+    max-width: 95%;
+    padding-bottom: 60%; /* Slightly taller video */
+  }
 }

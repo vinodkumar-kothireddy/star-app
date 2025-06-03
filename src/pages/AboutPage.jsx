@@ -5,7 +5,7 @@ const AboutPage = () => {
   return (
     <section>
       <h1>About Us</h1>
-      <p>Information about the conference...</p>
+      <p>Information about the conference...AAA</p>
     </section>
   );
 };
