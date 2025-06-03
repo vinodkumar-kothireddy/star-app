@@ -31,12 +31,12 @@ const Header = () => {
       </div>
 
       <nav className={`nav ${menuOpen ? 'open' : ''}`}>
-        <a href="/">Home</a>
-        <a href="/AboutUs">About</a>
+        <a href="/star-app">Home</a>
+        <a href="/star-app/AboutUs">About</a>
         <a href="#committee">Committee</a>
         <a href="#faculty">Faculty</a>
         <a href="#abstract">Abstract</a>
-        <a href="/register">Register</a>
+        <a href="/star-app/register">Register</a>
       </nav>
 
       <div
