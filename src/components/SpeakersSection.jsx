@@ -2,10 +2,9 @@
 import React from 'react';
 
 const speakers = [
-  { name: 'Dr. Ammu', img: '/images/speakers/ammu.jpg' },
-  { name: 'Dr. Vamika', img: '/images/speakers/ammu.jpg' },
+  { name: 'Dr. Ammu', img: process.env.PUBLIC_URL +'/images/speakers/ammu.jpg' },
+  { name: 'Dr. Vamika', img: process.env.PUBLIC_URL +'/images/speakers/ammu.jpg' },
 ];
-
 const SpeakersSection = () => (
   <section style={{ padding: '2rem' }}>
     <h2>Faculty</h2>

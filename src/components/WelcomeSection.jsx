@@ -3,11 +3,11 @@ import React from 'react';
 import './WelcomeSection.css';
 
 const memberImages = [
-  '/images/members/image1.jpg',
-  '/images/members/image2.jpg',
-  '/images/members/image3.jpg',
-  '/images/members/image.jpg',
-  '/images/members/image2.jpg',
+  process.env.PUBLIC_URL +'/images/members/image1.jpg',
+  process.env.PUBLIC_URL +'/images/members/image2.jpg',
+  process.env.PUBLIC_URL +'/images/members/image3.jpg',
+  process.env.PUBLIC_URL +'/images/members/image.jpg',
+  process.env.PUBLIC_URL +'/images/members/image2.jpg',
 ];
 
 const WelcomeSection = () => {
