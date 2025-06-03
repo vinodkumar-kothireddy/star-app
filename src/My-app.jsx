@@ -19,14 +19,14 @@ function App() {
     <Router>
        <Header />
       <Routes>
-        <Route path="/star-app" element={<HomePage />} />
-        <Route path="/star-app/AboutUs" element={<AboutPage />} />
+        <Route path="/" element={<HomePage />} />
+        <Route path="/AboutUs" element={<AboutPage />} />
         <Route path="/Committee" element={<CommitteePage />} />
         <Route path="/Faculty" element={<FacultyPage />} />
         <Route path="/Abstract" element={<AbstractPage />} />
         <Route path="/Brochure" element={<BrochurePage />} />
         <Route path="/Contact us" element={<ContactPage />} />
-       <Route path="/star-app/register" element={<RegisterPage />} />
+       <Route path="/register" element={<RegisterPage />} />
       </Routes>
        <Footer />
     </Router>
