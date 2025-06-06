@@ -1,14 +1,12 @@
 // src/App.jsx
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import NavBar from './components/NavBar';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import CommitteePage from './pages/AboutPage';
 import FacultyPage from './pages/AboutPage';
-import AbstractPage from './pages/AboutPage';
 import BrochurePage from './pages/AboutPage';
 import ContactPage from './pages/AboutPage';
 import RegisterPage from './pages/RegisterPage';
