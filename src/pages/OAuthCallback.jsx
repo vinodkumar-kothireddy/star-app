@@ -20,7 +20,7 @@ const OAuthCallback = () => {
         console.log('[OAuthCallback] Token saved. Redirecting to ViewAbstracts...');
 
         // Clean up hash and redirect
-        window.location.replace('/star-app/ViewAbstracts');
+        window.location.replace('/ViewAbstracts');
       } else {
         console.error('[OAuthCallback] Token not found in URL hash.');
       }
