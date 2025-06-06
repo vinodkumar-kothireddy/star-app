@@ -38,13 +38,13 @@ const Header = () => {
       </div>
 
       <nav className={`nav ${menuOpen ? 'open' : ''}`}>
-        <Link to="/" onClick={handleLinkClick}>Home</Link>
-        <Link to="/AboutUs" onClick={handleLinkClick}>About</Link>
+        <Link to="/star-app/" onClick={handleLinkClick}>Home</Link>
+        <Link to="/star-app/AboutUs" onClick={handleLinkClick}>About</Link>
         <a href="#committee" onClick={handleLinkClick}>Committee</a>
         <a href="#faculty" onClick={handleLinkClick}>Faculty</a>
-        <Link to="/Abstract" onClick={handleLinkClick}>Abstract</Link>
-        <Link to="/register" onClick={handleLinkClick}>Register</Link>
-        <Link to="/ViewAbstracts" onClick={handleLinkClick}>ViewAbstracts</Link>
+        <Link to="/star-app/Abstract" onClick={handleLinkClick}>Abstract</Link>
+        <Link to="/star-app/register" onClick={handleLinkClick}>Register</Link>
+        <Link to="/star-app/ViewAbstracts" onClick={handleLinkClick}>ViewAbstracts</Link>
       </nav>
 
       <div

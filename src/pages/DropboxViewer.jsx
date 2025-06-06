@@ -79,7 +79,7 @@ const DropboxViewer = () => {
 
   const handleLogin = () => {
     const APP_KEY = "nui6rhoasg9k10n";
-    const REDIRECT_URI = "https://vinodkumar-kothireddy.github.io/oauth-callback";
+    const REDIRECT_URI = "https://vinodkumar-kothireddy.github.io/star-app/oauth-callback";
     const url = `https://www.dropbox.com/oauth2/authorize?client_id=${APP_KEY}&response_type=token&redirect_uri=${encodeURIComponent(REDIRECT_URI)}`;
     window.location.href = url;
   };
