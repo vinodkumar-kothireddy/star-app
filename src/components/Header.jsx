@@ -42,8 +42,9 @@ const Header = () => {
         <Link to="/AboutUs" onClick={handleLinkClick}>About</Link>
         <a href="#committee" onClick={handleLinkClick}>Committee</a>
         <a href="#faculty" onClick={handleLinkClick}>Faculty</a>
-        <a href="#abstract" onClick={handleLinkClick}>Abstract</a>
+        <Link to="/Abstract" onClick={handleLinkClick}>Abstract</Link>
         <Link to="/register" onClick={handleLinkClick}>Register</Link>
+        <Link to="/ViewAbstracts" onClick={handleLinkClick}>ViewAbstracts</Link>
       </nav>
 
       <div
